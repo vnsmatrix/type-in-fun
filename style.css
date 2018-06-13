@@ -1,0 +1,33 @@
+body {
+    position: relative;
+    display: block;
+    background: purple;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+}
+
+textarea {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+}
+
+p {
+    display: none;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    z-index: 333;
+    margin: 33px;
+    text-align: center;
+    font-family: helvetica;
+    font-weight: lighter;
+    color: white;
+}
